@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="487a184a-66a4-430e-8898-bc298ba4f58c" name="更改" comment="20240925">
-      <change afterPath="$PROJECT_DIR$/hanshu/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hanshuclass2/XiaoPaChong.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hanshuclass2/ceshi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/hanshu/HanShuCanShu.py" afterDir="false" />
-    </list>
+    <list default="true" id="487a184a-66a4-430e-8898-bc298ba4f58c" name="更改" comment="20240929" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,54 +53,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.交互模式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.常量和变量.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6.标识符与关键字.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7.while循环练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.8.while循环嵌套.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9.while循环嵌套练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HanShuCanShu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.XiaoPaChong.executor&quot;: &quot;Run&quot;,
-    &quot;Python._pydev_execfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ceshi (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ceshi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fucking_two num.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_for_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_if,else_test.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.python_panduan_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_size_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_while_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_zifuchuan_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_demo (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.使用python打印.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code/Python&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.11.executor": "Run",
+    "Python.3.交互模式.executor": "Run",
+    "Python.4.常量和变量.executor": "Run",
+    "Python.6.标识符与关键字.executor": "Run",
+    "Python.7.while循环练习.executor": "Run",
+    "Python.8.while循环嵌套.executor": "Run",
+    "Python.9.while循环嵌套练习.executor": "Run",
+    "Python.HanShuCanShu.executor": "Run",
+    "Python.XiaoPaChong.executor": "Run",
+    "Python._pydev_execfile.executor": "Run",
+    "Python.ceshi (1).executor": "Run",
+    "Python.ceshi.executor": "Run",
+    "Python.fucking_two num.executor": "Run",
+    "Python.python_for_test.executor": "Run",
+    "Python.python_if,else_test.executor": "Debug",
+    "Python.python_panduan_test.executor": "Run",
+    "Python.python_size_test.executor": "Run",
+    "Python.python_test.executor": "Run",
+    "Python.python_while_test.executor": "Run",
+    "Python.python_zifuchuan_test.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_2.executor": "Run",
+    "Python.test_demo (1).executor": "Run",
+    "Python.test_demo.executor": "Run",
+    "Python.使用python打印.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Code/Python",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;dynamo&quot;,
-      &quot;mongo&quot;,
-      &quot;redis&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "dynamo",
+      "mongo",
+      "redis"
     ]
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings>
@@ -329,6 +325,7 @@
       <workItem from="1727266656836" duration="438000" />
       <workItem from="1727267135645" duration="3000" />
       <workItem from="1727267145576" duration="7943000" />
+      <workItem from="1727592105906" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <option name="closed" value="true" />
@@ -346,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727267686538</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20240929">
+      <option name="closed" value="true" />
+      <created>1727592292428</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727592292428</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +399,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11" />
     <MESSAGE value="20240925" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240925" />
+    <MESSAGE value="20240929" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240929" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$11.coverage" NAME="11 覆盖结果" MODIFIED="1727099529950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/容器类型-1" />
