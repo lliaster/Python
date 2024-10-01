@@ -82,7 +82,6 @@
     "Python.使用python打印.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Code/Python",
     "node.js.detected.package.eslint": "true",
@@ -277,8 +276,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
-        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.22855.92" />
+        <option value="bundled-python-sdk-b068d85d1acf-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.22855.92" />
       </set>
     </attachedChunks>
   </component>
@@ -326,6 +325,7 @@
       <workItem from="1727267135645" duration="3000" />
       <workItem from="1727267145576" duration="7943000" />
       <workItem from="1727592105906" duration="380000" />
+      <workItem from="1727780576464" duration="391000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <option name="closed" value="true" />
