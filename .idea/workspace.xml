@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="487a184a-66a4-430e-8898-bc298ba4f58c" name="更改" comment="20240929" />
+    <list default="true" id="487a184a-66a4-430e-8898-bc298ba4f58c" name="更改" comment="2024101_2">
+      <change afterPath="$PROJECT_DIR$/基础代码/9 函数基础-2/hanshutest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,22 +21,23 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;history&quot;: [
-    {
-      &quot;assignee&quot;: &quot;lliaster&quot;
-    }
-  ],
   &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
     &quot;assignee&quot;: &quot;lliaster&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/lliaster/Python.git&quot;,
-    &quot;accountId&quot;: &quot;e17be633-6032-45d4-a7f0-2f198ce2da5b&quot;
+    &quot;accountId&quot;: &quot;e043ffb4-440b-4e76-b942-65f0839f41ed&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -53,54 +57,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.11.executor": "Run",
-    "Python.3.交互模式.executor": "Run",
-    "Python.4.常量和变量.executor": "Run",
-    "Python.6.标识符与关键字.executor": "Run",
-    "Python.7.while循环练习.executor": "Run",
-    "Python.8.while循环嵌套.executor": "Run",
-    "Python.9.while循环嵌套练习.executor": "Run",
-    "Python.HanShuCanShu.executor": "Run",
-    "Python.XiaoPaChong.executor": "Run",
-    "Python._pydev_execfile.executor": "Run",
-    "Python.ceshi (1).executor": "Run",
-    "Python.ceshi.executor": "Run",
-    "Python.fucking_two num.executor": "Run",
-    "Python.python_for_test.executor": "Run",
-    "Python.python_if,else_test.executor": "Debug",
-    "Python.python_panduan_test.executor": "Run",
-    "Python.python_size_test.executor": "Run",
-    "Python.python_test.executor": "Run",
-    "Python.python_while_test.executor": "Run",
-    "Python.python_zifuchuan_test.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.test_2.executor": "Run",
-    "Python.test_demo (1).executor": "Run",
-    "Python.test_demo.executor": "Run",
-    "Python.使用python打印.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Code/Python",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.1.列表排序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.交互模式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.常量和变量.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.标识符与关键字.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.while循环练习.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.while循环嵌套.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9.while循环嵌套练习.executor&quot;: &quot;Run&quot;,
+    &quot;Python._pydev_execfile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_for_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_if,else_test.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.python_panduan_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_size_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_test.executor&quot;: &quot;Profiler&quot;,
+    &quot;Python.python_while_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_zifuchuan_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_demo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yuanzu_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.使用python打印.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ProjectCode/Python&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Code Search&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "dynamo",
-      "mongo",
-      "redis"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;dynamo&quot;,
+      &quot;mongo&quot;,
+      &quot;redis&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings>
@@ -110,14 +113,58 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Python\hanshu" />
-      <recent name="D:\Code\Python\hanshuclass2" />
-      <recent name="D:\Code\Python" />
+      <recent name="D:\ProjectCode\Python\基础代码" />
       <recent name="D:\ProjectCode\Python\基础代码\判断语句与循环语句-2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.HanShuCanShu">
-    <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.yuanzu_test">
+    <configuration name="1.列表排序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础代码/容器类型-2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础代码/容器类型-2/1.列表排序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础代码/容器类型-2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础代码/容器类型-2/list_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,99 +178,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础代码/容器类型-1/11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="HanShuCanShu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hanshu" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hanshu/HanShuCanShu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="XiaoPaChong" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hanshuclass2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hanshuclass2/XiaoPaChong.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ceshi (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hanshuclass2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hanshuclass2/ceshi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hanshu" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Code\Python\hanshuclass2\ceshi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础代码/容器类型-1/list_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,21 +210,67 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础代码/容器类型-1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础代码/容器类型-1/python_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yuanzu_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础代码/容器类型-2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础代码/容器类型-2/yuanzu_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.HanShuCanShu" />
-      <item itemvalue="Python.XiaoPaChong" />
-      <item itemvalue="Python.ceshi" />
-      <item itemvalue="Python.ceshi (1)" />
-      <item itemvalue="Python.11" />
+      <item itemvalue="Python.1.列表排序" />
+      <item itemvalue="Python.list_test (1)" />
+      <item itemvalue="Python.list_test" />
+      <item itemvalue="Python.python_test" />
+      <item itemvalue="Python.yuanzu_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HanShuCanShu" />
-        <item itemvalue="Python.XiaoPaChong" />
-        <item itemvalue="Python.ceshi (1)" />
-        <item itemvalue="Python.ceshi" />
-        <item itemvalue="Python.11" />
+        <item itemvalue="Python.yuanzu_test" />
+        <item itemvalue="Python.list_test (1)" />
+        <item itemvalue="Python.1.列表排序" />
+        <item itemvalue="Python.python_test" />
+        <item itemvalue="Python.list_test" />
       </list>
     </recent_temporary>
   </component>
@@ -313,66 +314,104 @@
       <workItem from="1726471601654" duration="15421000" />
       <workItem from="1726556100080" duration="117000" />
       <workItem from="1726556231887" duration="22403000" />
-      <workItem from="1726583616175" duration="318000" />
-      <workItem from="1726584262048" duration="287000" />
-      <workItem from="1726622313786" duration="1461000" />
-      <workItem from="1726624071778" duration="17724000" />
-      <workItem from="1726652385830" duration="597000" />
-      <workItem from="1726747972132" duration="1038000" />
-      <workItem from="1727091749021" duration="8085000" />
-      <workItem from="1727100624184" duration="2535000" />
-      <workItem from="1727266656836" duration="438000" />
-      <workItem from="1727267135645" duration="3000" />
-      <workItem from="1727267145576" duration="7943000" />
-      <workItem from="1727592105906" duration="380000" />
-      <workItem from="1727780576464" duration="391000" />
+      <workItem from="1726584691726" duration="147000" />
+      <workItem from="1726659172198" duration="11501000" />
+      <workItem from="1726673221738" duration="1242000" />
+      <workItem from="1726894498544" duration="4967000" />
+      <workItem from="1726900074160" duration="7442000" />
+      <workItem from="1726912344017" duration="17000" />
+      <workItem from="1727442427758" duration="177000" />
+      <workItem from="1727445551648" duration="30000" />
+      <workItem from="1727780210883" duration="2535000" />
+      <workItem from="1727863049873" duration="299000" />
     </task>
-    <task id="LOCAL-00001" summary="11">
+    <task id="LOCAL-00001" summary="2024.9.18">
       <option name="closed" value="true" />
-      <created>1727266939791</created>
+      <created>1726670858851</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1727266939791</updated>
+      <updated>1726670858851</updated>
     </task>
-    <task id="LOCAL-00002" summary="20240925">
+    <task id="LOCAL-00002" summary="2024.9.18">
       <option name="closed" value="true" />
-      <created>1727267686538</created>
+      <created>1726671240645</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1727267686538</updated>
+      <updated>1726671240645</updated>
     </task>
-    <task id="LOCAL-00003" summary="20240929">
+    <task id="LOCAL-00003" summary="2024.9.18">
       <option name="closed" value="true" />
-      <created>1727592292428</created>
+      <created>1726671690818</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1727592292428</updated>
+      <updated>1726671690818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2024.9.18">
+      <option name="closed" value="true" />
+      <created>1726673117515</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726673117515</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2024.9.18">
+      <option name="closed" value="true" />
+      <created>1726673609886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726673609886</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2024.9.18">
+      <option name="closed" value="true" />
+      <created>1726896553035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726896553035</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2024.9.21">
+      <option name="closed" value="true" />
+      <created>1726912357604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726912357604</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2024.9.21">
+      <option name="closed" value="true" />
+      <created>1727442582835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727442582835</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2024.10.1">
+      <option name="closed" value="true" />
+      <created>1727780989622</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727780989622</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2024101_2">
+      <option name="closed" value="true" />
+      <created>1727781114059</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727781114059</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="master" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -383,13 +422,18 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
                 </map>
               </option>
-              <option name="LONG_EDGES_VISIBLE" value="true" />
+              <option name="GRAPH_OPTIONS">
+                <list>
+                  <option value="Base" />
+                  <option value="Standard" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -397,36 +441,45 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11" />
-    <MESSAGE value="20240925" />
-    <MESSAGE value="20240929" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240929" />
+    <MESSAGE value="2024.9.18" />
+    <MESSAGE value="2024.9.21" />
+    <MESSAGE value="2024.10.1" />
+    <MESSAGE value="2024101_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024101_2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python$11.coverage" NAME="11 覆盖结果" MODIFIED="1727099529950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/容器类型-1" />
+    <SUITE FILE_PATH="coverage/Python$yuanzu_test.coverage" NAME="yuanzu_test 覆盖结果" MODIFIED="1726911668212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/容器类型-2" />
     <SUITE FILE_PATH="coverage/Python$test_demo.coverage" NAME="test_demo 覆盖结果" MODIFIED="1726484080926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/基础代码-1" />
-    <SUITE FILE_PATH="coverage/Python$XiaoPaChong.coverage" NAME="XiaoPaChong 覆盖结果" MODIFIED="1727274434255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hanshuclass2" />
+    <SUITE FILE_PATH="coverage/Python$3_.coverage" NAME="3.交互模式 覆盖结果" MODIFIED="1726467957204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/基础代码-1" />
+    <SUITE FILE_PATH="coverage/Python$list_test__1_.coverage" NAME="list_test (1) 覆盖结果" MODIFIED="1726899418859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/容器类型-2" />
     <SUITE FILE_PATH="coverage/Python$8_while.coverage" NAME="8.while循环嵌套 覆盖结果" MODIFIED="1726566192773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-2" />
+    <SUITE FILE_PATH="coverage/Python$python_while_test.coverage" NAME="python_while_test 覆盖结果" MODIFIED="1726569197369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-2" />
+    <SUITE FILE_PATH="coverage/Python$1_.coverage" NAME="1.列表排序 覆盖结果" MODIFIED="1726895776161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/容器类型-2" />
     <SUITE FILE_PATH="coverage/Python$6_.coverage" NAME="6.标识符与关键字 覆盖结果" MODIFIED="1726471754719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/基础代码-1" />
-    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test 覆盖结果" MODIFIED="1726644590606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-3" />
+    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test 覆盖结果" MODIFIED="1726659856536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-3" />
+    <SUITE FILE_PATH="coverage/Python$python_panduan_test.coverage" NAME="python_panduan_test 覆盖结果" MODIFIED="1726556189467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-1" />
     <SUITE FILE_PATH="coverage/Python$python_if_else_test.coverage" NAME="python_if,else_test 覆盖结果" MODIFIED="1726560491357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-2" />
     <SUITE FILE_PATH="coverage/Python$_pydev_execfile.coverage" NAME="_pydev_execfile 覆盖结果" MODIFIED="1726568882603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/pydev/_pydev_imps" />
-    <SUITE FILE_PATH="coverage/Python$fucking_two_num.coverage" NAME="fucking_two num 覆盖结果" MODIFIED="1726748152058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码" />
-    <SUITE FILE_PATH="coverage/Python$python_test.coverage" NAME="python_test 覆盖结果" MODIFIED="1726557118415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/基础知识-2" />
-    <SUITE FILE_PATH="coverage/Python$7_while.coverage" NAME="7.while循环练习 覆盖结果" MODIFIED="1726639328930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-2" />
-    <SUITE FILE_PATH="coverage/Python$python.coverage" NAME="使用python打印 覆盖结果" MODIFIED="1726467625438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码" />
-    <SUITE FILE_PATH="coverage/Python$4_.coverage" NAME="4.常量和变量 覆盖结果" MODIFIED="1726468288212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/基础代码-1" />
-    <SUITE FILE_PATH="coverage/Python$3_.coverage" NAME="3.交互模式 覆盖结果" MODIFIED="1726467957204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/基础代码-1" />
-    <SUITE FILE_PATH="coverage/Python$ceshi.coverage" NAME="ceshi 覆盖结果" MODIFIED="1727269050413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hanshu" />
-    <SUITE FILE_PATH="coverage/Python$python_while_test.coverage" NAME="python_while_test 覆盖结果" MODIFIED="1726648962376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-2" />
-    <SUITE FILE_PATH="coverage/Python$python_panduan_test.coverage" NAME="python_panduan_test 覆盖结果" MODIFIED="1726556189467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-1" />
     <SUITE FILE_PATH="coverage/Python$python_zifuchuan_test.coverage" NAME="python_zifuchuan_test 覆盖结果" MODIFIED="1726581826994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-3" />
-    <SUITE FILE_PATH="coverage/Python$ceshi__1_.coverage" NAME="ceshi (1) 覆盖结果" MODIFIED="1727271527978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hanshuclass2" />
-    <SUITE FILE_PATH="coverage/Python$test_2.coverage" NAME="test_2 覆盖结果" MODIFIED="1726748433596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/容器类型-1" />
+    <SUITE FILE_PATH="coverage/Python$7_while.coverage" NAME="7.while循环练习 覆盖结果" MODIFIED="1726564336791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-2" />
+    <SUITE FILE_PATH="coverage/Python$python_test.coverage" NAME="python_test 覆盖结果" MODIFIED="1726673271414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/容器类型-1" />
+    <SUITE FILE_PATH="coverage/Python$list_test.coverage" NAME="list_test 覆盖结果" MODIFIED="1726672804961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/容器类型-1" />
+    <SUITE FILE_PATH="coverage/Python$python.coverage" NAME="使用python打印 覆盖结果" MODIFIED="1726467625438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码" />
     <SUITE FILE_PATH="coverage/Python$python_size_test.coverage" NAME="python_size_test 覆盖结果" MODIFIED="1726482934583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/基础知识-2" />
     <SUITE FILE_PATH="coverage/Python$9_while.coverage" NAME="9.while循环嵌套练习 覆盖结果" MODIFIED="1726564349495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-2" />
     <SUITE FILE_PATH="coverage/Python$python_for_test.coverage" NAME="python_for_test 覆盖结果" MODIFIED="1726582983957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/判断语句与循环语句-3" />
     <SUITE FILE_PATH="coverage/Python$test_demo__1_.coverage" NAME="test_demo (1) 覆盖结果" MODIFIED="1726471457943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/基础代码-1" />
-    <SUITE FILE_PATH="coverage/Python$HanShuCanShu.coverage" NAME="HanShuCanShu 覆盖结果" MODIFIED="1727276102669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hanshu" />
+    <SUITE FILE_PATH="coverage/Python$4_.coverage" NAME="4.常量和变量 覆盖结果" MODIFIED="1726468288212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/基础代码-1" />
   </component>
 </project>
