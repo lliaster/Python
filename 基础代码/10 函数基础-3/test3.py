@@ -25,9 +25,9 @@ print(stus)
 stus.sort(key=lambda item:item['age'])
 
 
-# def test():
+# def test.py():
 #     print('这是一个递归函数')
-#     test()
-# test()
+#     test.py()
+# test.py()
 a=range(2,10)
 print(a)
