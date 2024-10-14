@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 # @Time    : 2024/10/11 20:44
 # @Author  : 顾安
 # @File    : 4.静态方法.py

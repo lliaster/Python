@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 # @Time    : 2024/10/11 21:45
 # @Author  : 顾安
 # @File    : 8.__getattribute__代码示例.py
