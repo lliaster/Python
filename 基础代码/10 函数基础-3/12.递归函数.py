@@ -11,11 +11,11 @@
 """
 
 
-# def test.py():
+# def test2.py():
 #     print('这是一个测试的递归函数...')
-#     test.py()  # 调用test函数
+#     test2.py()  # 调用test函数
 
-# test.py()
+# test2.py()
 
 
 # 计算斐波那契数列

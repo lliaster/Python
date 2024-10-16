@@ -12,7 +12,7 @@ def test_value(a,b,c,*args,**kwargs):
     print(args)
     print(kwargs)
 
-test_value(1,2,3,4,5,6,7,8,9,10,name= "test.py",age=18,sex=0,sex_type= "male")
+test_value(1,2,3,4,5,6,7,8,9,10,name= "test2.py",age=18,sex=0,sex_type= "male")
 
 def stu_info(stu_id,stu_name,cls_name):
     print(f'stu_id:{stu_id}\nstu_name:{stu_name}\ncls_name:{cls_name}')
