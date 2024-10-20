@@ -1,0 +1,10 @@
+flowchart TD
+    Start[开始] --> A[初始化 a 为 False]
+    A --> B{遍历 s1 的每个字符 item}
+    B -->|检查 item 在 s1 和 s2 中出现的次数是否相等| C{次数相等？}
+    C -->|Yes| D[设置 a 为 True]
+    C -->|No| E[设置 a 为 False]
+    E --> F{a 为 False？}
+    F -->|Yes| G[返回 False]
+    F -->|No| H[继续遍历]
+    B -->|遍历结束| I[返回 True]

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# @Time    : {Date} {Time}
-# @Author  : Lliaster
-# @File    : {File}.py
+# @Time     : 2024/10/20 22:31
+# @Author   : Lliaster
+# @File     : lianxi.py
 
 
 """
@@ -38,6 +38,7 @@
 进阶：你能不将整数转为字符串来解决这个问题吗？
 
 """
+from itertools import count
 
 
 class Solution:
@@ -69,7 +70,7 @@ print('x' * 50)
 """
 class Solution:
     def CheckPermutation(self, s1: str, s2: str) -> bool:
-        
+
         b = list()
         for item in s1:
             c = list()
@@ -190,7 +191,7 @@ class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
         a = 0
         for i in set(s):
-            if s.count(i) %2 != 0:
+            if s.count(i) % 2 != 0:
                 a += 1
         if a > 1:
             return False
@@ -203,28 +204,28 @@ print(s.canPermutePalindrome("code"))
 print(s.canPermutePalindrome("aab"))
 print(s.canPermutePalindrome("a"))
 
+print('一次编辑', 'X' * 55)
 
 
-print('一次编辑','X' * 55)
 class Solution:
     def oneEditAway(self, first: str, second: str) -> bool:
-        lf,ls= len(first),len(second)
+        lf, ls = len(first), len(second)
         if first == second:
             return True
         if lf < ls:
             return self.oneEditAway(second, first)
-        elif lf -ls>1:
+        elif lf - ls > 1:
             return False
 
         num = 0
         fnum = 0
         if lf == ls:
             for item in first:
-                if item == second[num:num+1]:
-                    num+=1
-                elif item != second[num:num+1]:
-                    fnum +=1
-                    num+=1
+                if item == second[num:num + 1]:
+                    num += 1
+                elif item != second[num:num + 1]:
+                    fnum += 1
+                    num += 1
             if fnum <= 1:
                 return True
             return False
@@ -233,19 +234,36 @@ class Solution:
             fnum = 0
             while num < ls:
                 if second[num] != first[num + fnum]:
-                    fnum +=1
-                    if fnum>1:
+                    fnum += 1
+                    if fnum > 1:
                         return False
                 else:
-                    num+=1
+                    num += 1
             return True
 
 
-
-s= Solution()
+s = Solution()
 print(s.oneEditAway("spartan", "part"))
 print(s.oneEditAway("teacher", "treacher"))
 print(s.oneEditAway("islander", "slander"))
 print(s.oneEditAway("teacher", "teache"))
 # "teacher"
 # "treacher"
+
+print('字符串压缩', 'X' * 55)
+
+
+class Solution:
+    def compressString(self, S: str) -> str:
+        x, y, lS = 0, 0, len(S)
+        res = []
+        while x <lS:
+            if S[x] == S[y]:
+                y += 1
+
+
+
+
+
+S = Solution()
+print(S.compressString("aabcccccaaa"))

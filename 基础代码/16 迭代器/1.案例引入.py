@@ -21,7 +21,7 @@ if __name__ == '__main__':
     system_student = SystemStudent()
     system_student.add_student('安娜', 13011111111, '长沙')
     system_student.add_student('双双', 13011111234, '南京')
-    # print(system_student.stu_list)
+    print(system_student.stu_list)
 
     # 需要从列表中将每一个元素迭代打印
     # for item in system_student.stu_list:
