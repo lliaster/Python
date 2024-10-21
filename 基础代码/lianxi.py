@@ -38,7 +38,10 @@
 进阶：你能不将整数转为字符串来解决这个问题吗？
 
 """
+from copy import deepcopy
 from itertools import count
+
+from setuptools.command.rotate import rotate
 
 
 class Solution:
@@ -183,8 +186,8 @@ class Solution2:
         return S[:length].replace(' ', '%20')
 
 
-str = Solution2()
-print(str.replaceSpaces("Mr John Smith    ", 13))
+str1 = Solution2()
+print(str1.replaceSpaces("Mr John Smith    ", 13))
 
 
 class Solution:
@@ -253,17 +256,80 @@ print(s.oneEditAway("teacher", "teache"))
 print('字符串压缩', 'X' * 55)
 
 
-class Solution:
+class Solution2:
     def compressString(self, S: str) -> str:
-        x, y, lS = 0, 0, len(S)
+        x, y, l_s = 0, 0, len(S)
         res = []
-        while x <lS:
-            if S[x] == S[y]:
+        while x < l_s:
+            while y < l_s and S[x] == S[y]:
                 y += 1
+            res.append(S[x])
+            res.append(str(y - x))
+            x += 1
+            x = y
+        return ''.join(res) if len(res) < l_s else S
 
 
-
-
-
-S = Solution()
+S = Solution2()
 print(S.compressString("aabcccccaaa"))
+
+print('旋转矩阵', 'X' * 55)
+
+
+class Solution:
+    def rotate(self, matrix) -> None:
+        new_lst = deepcopy(matrix)
+        i = 0
+        lo = len(matrix)
+        while i < lo:
+            j = 0
+            while j < lo:
+                temp = new_lst[lo - i - 1][j]
+                matrix[j][i] = temp
+                j += 1
+            i += 1
+
+        print(matrix)
+
+
+s = Solution()
+lst = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(s.rotate(lst))
+
+print('旋转矩阵2', 'X' * 55)
+
+
+class Solution:
+    def rotate(self, matrix) -> None:
+        x, y = 0, 0
+        n = len(matrix)
+        while x < n//2:
+            while y < (n+1)//2 :
+                temp = matrix[x][y]
+                matrix[x][y] = matrix[n - y- 1][x]
+                matrix[n - y - 1][x] = matrix[n -y-1][n-x-1]
+                matrix[n - y - 1][n - x - 1] = matrix[y][n - x - 1]
+                matrix[y][n - x - 1] = temp
+                y += 1
+            x +=1
+        print(matrix)
+truelst=[
+  [15,13, 2, 5],
+  [14, 3, 4, 1],
+  [12, 6, 8, 9],
+  [16, 7,10,11]
+]
+s = Solution()
+lst = [
+    [5, 1, 9, 11],
+    [2, 4, 8, 10],
+    [13, 3, 6, 7],
+    [15, 14, 12, 16]
+]
+
+s.rotate(lst)
