@@ -38,8 +38,10 @@
 进阶：你能不将整数转为字符串来解决这个问题吗？
 
 """
+import time
 from copy import deepcopy
 from itertools import count
+from time import sleep
 
 from setuptools.command.rotate import rotate
 
@@ -308,21 +310,23 @@ class Solution:
     def rotate(self, matrix) -> None:
         x, y = 0, 0
         n = len(matrix)
-        while x < n//2:
-            while y < (n+1)//2 :
+        while x < n // 2:
+            while y < (n + 1) // 2:
                 temp = matrix[x][y]
-                matrix[x][y] = matrix[n - y- 1][x]
-                matrix[n - y - 1][x] = matrix[n -y-1][n-x-1]
+                matrix[x][y] = matrix[n - y - 1][x]
+                matrix[n - y - 1][x] = matrix[n - y - 1][n - x - 1]
                 matrix[n - y - 1][n - x - 1] = matrix[y][n - x - 1]
                 matrix[y][n - x - 1] = temp
                 y += 1
-            x +=1
+            x += 1
         print(matrix)
-truelst=[
-  [15,13, 2, 5],
-  [14, 3, 4, 1],
-  [12, 6, 8, 9],
-  [16, 7,10,11]
+
+
+truelst = [
+    [15, 13, 2, 5],
+    [14, 3, 4, 1],
+    [12, 6, 8, 9],
+    [16, 7, 10, 11]
 ]
 s = Solution()
 lst = [
@@ -333,3 +337,98 @@ lst = [
 ]
 
 s.rotate(lst)
+
+print('装饰器','x'*55)
+def han_info(func):
+    def warrper(*args):
+        t1 = time.time()
+        print(f'方法开始：{func.__name__}')
+        func(*args)
+        t2 = time.time()
+        print(f'方法结束：{func.__name__}','耗时:',t2-t1)
+    return warrper
+
+
+print('矩阵置零', 'X' * 55)
+class Solution:
+
+    # @han_info
+    def setZeroes(self, matrix) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        new_matrix=deepcopy(matrix)
+        x = len(new_matrix[0])
+        y = len(new_matrix)
+        for i in range(x):
+            # print(i)
+            for j in range(y):
+                if new_matrix[j][i] == 0:
+                    print(f'行：{i+1},列{j+1}')
+                    for k in range(y):
+                        matrix[k][i] = 0
+                    for l in range(x):
+                        matrix[j][l] = 0
+        print(matrix)
+
+
+
+
+
+sol = Solution()
+sol.setZeroes([[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]])
+
+
+
+"""
+面试题 01.09. 字符串轮转
+简单
+相关标签
+相关企业
+提示
+字符串轮转。给定两个字符串s1和s2，请编写代码检查s2是否为s1旋转而成（比如，waterbottle是erbottlewat旋转后的字符串）。
+
+示例1:
+
+ 输入：s1 = "waterbottle", s2 = "erbottlewat"
+ 输出：True
+示例2:
+
+ 输入：s1 = "aa", s2 = "aba"
+ 输出：False
+提示：
+
+字符串长度在[0, 100000]范围内。
+说明:
+
+你能只调用一次检查子串的方法吗
+"""
+
+
+print('字符串轮转', 'X' * 55)
+class Solution:
+    def isFlipedString(self, s1: str, s2: str) -> bool:
+        if s1 == "" and s2 == "":
+            return True
+        for i in range(len(s1)):
+            # print(i,s1[i:],s1[:i],s2)
+            if s1[i:]+s1[:i] == s2:
+                return True
+        else:
+            return False
+#
+#
+#
+#
+
+s1 =""
+s2 =""
+s = Solution()
+print(s.isFlipedString("waterbottle", "erbottlewat"))
+print(s.isFlipedString("", ""))
+print(s.isFlipedString("abcd", "acdb"))
+
+
+
+
+
