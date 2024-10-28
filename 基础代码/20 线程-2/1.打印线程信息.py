@@ -16,12 +16,12 @@ def work():
 
 for i in range(5):
     t = threading.Thread(target=work)
-    # t.setName(f'线程: {i}')
+    t.setName(f'线程: {i}')
     t.start()
 
 # 获取所有活动线程的信息, 包含主线程
 threads = threading.enumerate()
-# print(threads)
+print(threads)
 
 # 打印线程信息
 for thread in threads:
