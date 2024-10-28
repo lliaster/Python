@@ -338,18 +338,23 @@ lst = [
 
 s.rotate(lst)
 
-print('装饰器','x'*55)
+print('装饰器', 'x' * 55)
+
+
 def han_info(func):
     def warrper(*args):
         t1 = time.time()
         print(f'方法开始：{func.__name__}')
         func(*args)
         t2 = time.time()
-        print(f'方法结束：{func.__name__}','耗时:',t2-t1)
+        print(f'方法结束：{func.__name__}', '耗时:', t2 - t1)
+
     return warrper
 
 
 print('矩阵置零', 'X' * 55)
+
+
 class Solution:
 
     # @han_info
@@ -357,14 +362,14 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        new_matrix=deepcopy(matrix)
+        new_matrix = deepcopy(matrix)
         x = len(new_matrix[0])
         y = len(new_matrix)
         for i in range(x):
             # print(i)
             for j in range(y):
                 if new_matrix[j][i] == 0:
-                    print(f'行：{i+1},列{j+1}')
+                    print(f'行：{i + 1},列{j + 1}')
                     for k in range(y):
                         matrix[k][i] = 0
                     for l in range(x):
@@ -372,13 +377,8 @@ class Solution:
         print(matrix)
 
 
-
-
-
 sol = Solution()
 sol.setZeroes([[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]])
-
-
 
 """
 面试题 01.09. 字符串轮转
@@ -404,31 +404,57 @@ sol.setZeroes([[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]])
 你能只调用一次检查子串的方法吗
 """
 
-
 print('字符串轮转', 'X' * 55)
+
+
 class Solution:
     def isFlipedString(self, s1: str, s2: str) -> bool:
         if s1 == "" and s2 == "":
             return True
         for i in range(len(s1)):
             # print(i,s1[i:],s1[:i],s2)
-            if s1[i:]+s1[:i] == s2:
+            if s1[i:] + s1[:i] == s2:
                 return True
         else:
             return False
+
+
 #
 #
 #
 #
 
-s1 =""
-s2 =""
+s1 = ""
+s2 = ""
 s = Solution()
 print(s.isFlipedString("waterbottle", "erbottlewat"))
 print(s.isFlipedString("", ""))
 print(s.isFlipedString("abcd", "acdb"))
 
+print('X' * 55)
 
 
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        print('             ',s)
+        lang = len(s)
+        for i in range(lang, 0, -1):  # 5,4,3,2,1
+            print(f'当前查看{i}位字符')
+            for j in range(lang - i + 1):  # 5-5+1=1 ,5-4+1=2,
+                # print(list(range(1, lang - i + )))
+                n = j
+                if j == range(lang-i+1)[-1]:
+
+                    n == None
+                print(f'当前查看的字符串为：{s[j:j + i]},{s[j + i:j:-1]}''    j值是', j, '  i是',i)
+                # if s[j:j+i] == s[j+i:n:-1]:
+                #     print('找到回文')
+                #     return s[j:j+i]
+                #
 
 
+s = Solution()
+print(s.longestPalindrome("babad"))
+#
+# a = list(range(5,0,-1))
+# print(a)
