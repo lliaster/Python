@@ -35,7 +35,7 @@ async def work_3():
     print('协程任务3启动...')
     return '返回值3'
 
-
+    
 loop = asyncio.get_event_loop()
 res = loop.run_until_complete(work_1())
 print(res)
