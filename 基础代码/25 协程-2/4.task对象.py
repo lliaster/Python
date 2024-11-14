@@ -41,6 +41,7 @@ async def main():
     # gather方法无法直接接收列表类型, 需要进行解包
 
     # res_list = await asyncio.wait(task_list)
+    res_list = await asyncio.gather(task_1, task_2)
     res_list = await asyncio.gather(*task_list)  # 返回值是一个列表
     print(res_list)
 

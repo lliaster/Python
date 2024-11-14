@@ -30,3 +30,5 @@ async def main():
 # loop: 事件循环对象（用于任务的异步调度）
 loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
+
+# coroutine

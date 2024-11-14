@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e40815d1-64f8-45d8-9940-025e5bdada07" name="更改" comment="20241011" />
+    <list default="true" id="e40815d1-64f8-45d8-9940-025e5bdada07" name="更改" comment="20241114_1">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础代码/MyScript/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础代码/MyScript/考试.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_10_7_13_37____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础代码/25 协程-2/4.task对象.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础代码/25 协程-2/4.task对象.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础代码/25 协程-2/5.wait方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础代码/25 协程-2/5.wait方法.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +57,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/lliaster/Python.git&quot;,
-    &quot;accountId&quot;: &quot;e17be633-6032-45d4-a7f0-2f198ce2da5b&quot;
+    &quot;accountId&quot;: &quot;e043ffb4-440b-4e76-b942-65f0839f41ed&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -63,21 +73,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.11.链接数据库.executor": "Run",
     "Python.6.使用对象关联的方式将多个学生存储到班级对象中.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.考试.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/ProjectCode/Python_Learn",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "database.data.views",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "dynamo",
+      "mongo",
+      "mysql",
+      "redis"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="6.使用对象关联的方式将多个学生存储到班级对象中" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
+  <component name="RunManager" selected="Python.考试">
+    <configuration name="console_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/consoles/db/1fef7951-d279-499a-9ca7-70991a844050/console_1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="console.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/consoles/db/1fef7951-d279-499a-9ca7-70991a844050/console.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="考试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Learn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,12 +115,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础代码/12 面向对象-2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础代码/MyScript" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础代码/12 面向对象-2/6.使用对象关联的方式将多个学生存储到班级对象中.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础代码/MyScript/考试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11.链接数据库" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Learn" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础代码/31 MongoDB数据库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础代码/31 MongoDB数据库/11.链接数据库.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,16 +177,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.考试" />
+        <item itemvalue="Node.js.console_1.js" />
+        <item itemvalue="Python.11.链接数据库" />
+        <item itemvalue="Node.js.console.js" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.6.使用对象关联的方式将多个学生存储到班级对象中" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
-        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -150,6 +206,10 @@
       <workItem from="1728640853059" duration="382000" />
       <workItem from="1728641256055" duration="181000" />
       <workItem from="1728641901640" duration="4925000" />
+      <workItem from="1731682630106" duration="3750000" />
+      <workItem from="1731740450967" duration="600000" />
+      <workItem from="1731741552625" duration="13757000" />
+      <workItem from="1731827184507" duration="9119000" />
     </task>
     <task id="LOCAL-00001" summary="20241011">
       <option name="closed" value="true" />
@@ -194,7 +254,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="20241011" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_Learn$6_.coverage" NAME="6.使用对象关联的方式将多个学生存储到班级对象中 覆盖结果" MODIFIED="1728645565961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/12 面向对象-2" />
     <SUITE FILE_PATH="coverage/Python_Learn$test.coverage" NAME="test 覆盖结果" MODIFIED="1728647729494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/12 面向对象-2" />
+    <SUITE FILE_PATH="coverage/Python_Learn$6_.coverage" NAME="6.使用对象关联的方式将多个学生存储到班级对象中 覆盖结果" MODIFIED="1728645565961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/12 面向对象-2" />
+    <SUITE FILE_PATH="coverage/Python_Learn$.coverage" NAME="考试 覆盖结果" MODIFIED="1731846106066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/MyScript" />
+    <SUITE FILE_PATH="coverage/Python_Learn$11_.coverage" NAME="11.链接数据库 覆盖结果" MODIFIED="1731747122682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/31 MongoDB数据库" />
   </component>
 </project>
