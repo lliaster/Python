@@ -5,7 +5,7 @@
 
 
 import time
-from concurrent.futures import ProcessPoolExecutor, wait
+from concurrent.futures import ProcessPoolExecutor, wait  #导入
 from multiprocessing import Manager  # 进程池环境中使用的队列
 
 """
