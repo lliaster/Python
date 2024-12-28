@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="PY-243.21565.199">
-    <data-source name="MongoDB@192.168.1.11" uuid="1fef7951-d279-499a-9ca7-70991a844050">
-      <database-info product="Mongo DB" version="3.6.3" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.20" dbms="MONGO" exact-version="3.6.3" exact-driver-version="1.20" />
+  <component name="dataSourceStorageLocal" created-in="PY-243.22562.220">
+    <data-source name="MongoDB" uuid="1fef7951-d279-499a-9ca7-70991a844050">
+      <database-info product="Mongo DB" version="3.6.3" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.18" dbms="MONGO" exact-version="3.6.3" exact-driver-version="1.18" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
       <schema-mapping>
@@ -11,7 +11,7 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="MySQL@192.168.1.11" uuid="1878632f-f515-4cef-bd02-e3fd6f3f1e5b">
+    <data-source name="MySQL" uuid="1878632f-f515-4cef-bd02-e3fd6f3f1e5b">
       <database-info product="MySQL" version="5.7.42-0ubuntu0.18.04.1" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="5.7.42" exact-driver-version="8.2">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -25,13 +25,13 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="Redis@192.168.1.11" uuid="1966754c-f621-4d92-a283-db1dc658b5ea">
+    <data-source name="Redis" uuid="1966754c-f621-4d92-a283-db1dc658b5ea">
       <database-info product="Redis Standalone" version="4.0.9" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.5" dbms="REDIS" exact-version="4.0.9" exact-driver-version="1.5" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="@" />
+          <node kind="schema" negative="1" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
