@@ -1,0 +1,13 @@
+上图中的1 - 12序号的解释说明：
+1. scrapy从spider子类中提取start_urls，然后构造为request请求对象
+2. 将request请求对象传递给爬虫中间件
+3. 将request请求对象传递给scrapy引擎（就是核心代码）
+4. 将request请求对象传递给调度器（它负责对多个request调度，好比交通管理员负责交通的指挥员）
+5. 将request请求对象传递给scrapy引擎
+6. scrapy引擎将request请求对象传递给下载中间件（可以更换代理IP，更换Cookies，更换User-Agent，自动重试。等）
+7. request请求对象传给到下载器（下载器通过异步的方式发送HTTP(S)请求），得到响应封装为response对象
+8. 将response对象传递给下载中间件
+9. 下载中间件将response对象传递给scrapy引擎
+10. scrapy引擎将response对象传递给爬虫中间件（这里可以处理异常等情况）
+11. 爬虫对象中的parse函数被调用（在这里可以对得到的response对象进行处理，例如用status得到响应状态码，xpath可以进行提取数据等）
+12. 将提取到的数据传递给scrapy引擎，它将数据再传递给管道（在管道中我们可以将数据存储到csv、MongoDB等）
