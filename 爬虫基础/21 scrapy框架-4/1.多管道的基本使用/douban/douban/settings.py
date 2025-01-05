@@ -65,6 +65,7 @@ DEFAULT_REQUEST_HEADERS = {
 ITEM_PIPELINES = {
     'douban.pipelines.DoubanPipeline': 300,
     'douban.pipelines.NewDoubanPipeline': 301,
+    'douban.pipelines.NewDoubanPipeline2': 302,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -118,13 +118,13 @@ class SeleniumDownloaderMiddleware:
 
     def process_request(self, request, spider):
         self.browser.get(request.url)
-        wait = WebDriverWait(self.browser, 10)
-        wait.until(EC.presence_of_all_elements_located(
-            (By.CLASS_NAME, 'recruit-list')
+        wait = WebDriverWait(self.browser, 10)   # 创建webdriver等待对象,并且设置最大等待10秒
+        wait.until(EC.presence_of_all_elements_located(       # 通过until 等待页面指定的标签加载完成
+            (By.CLASS_NAME, 'recruit-list')                     #必须传递一个元组
         ))
 
         body = self.browser.page_source
-        return scrapy.http.HtmlResponse(url=request.url, body=body, encoding='utf-8', request=request)
+        return scrapy.http.HtmlResponse(url=request.url, body=body, encoding='utf-8', request=request)  #通过scrapy.http.HtmlResponse将静态页面作为对象返回给resquest
 
     def spider_closed(self, spider):
         self.browser.quit()

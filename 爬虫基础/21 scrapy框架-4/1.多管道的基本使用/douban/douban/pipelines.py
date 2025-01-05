@@ -22,5 +22,11 @@ class DoubanPipeline:
 
 
 class NewDoubanPipeline:
-    def process_item(self, item, spider):
-        print('返回的数据 - 2:', item)
+    def process_item(self, item2, spider):
+        print('返回的数据 - 2:', item2)
+        return item2
+
+
+class NewDoubanPipeline2:
+    def process_item(self, item3, spider):
+        print('返回的数据 - 3:', item3)

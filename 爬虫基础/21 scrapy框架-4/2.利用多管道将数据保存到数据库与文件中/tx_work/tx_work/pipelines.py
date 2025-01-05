@@ -16,18 +16,20 @@ from itemadapter import ItemAdapter
 
 class TxWorkFilePipeline:
     def open_spider(self, spider):
+        print('open_spider爬虫开启...')
         if spider.name == 'tx_work_info':
             self.file_obj = open('tx_work_json.txt', 'a', encoding='utf-8')
 
     def process_item(self, item, spider):
         if spider.name == 'tx_work_info':
-            self.file_obj.write(json.dumps(item, ensure_ascii=False, indent=4) + '\n')
+            self.file_obj.write(json.dumps(item, ensure_ascii=False, indent=4) + '\n')  #关闭ascii码,设置缩进 4个空格
             print('数据写入成功:', item.get('title'))
 
         # 无论以上条件是否成立都需要将item返回出去
         return item
 
     def close_spider(self, spider):
+        print('open_spider爬虫关闭...')
         if spider.name == 'tx_work_info':
             self.file_obj.close()
 

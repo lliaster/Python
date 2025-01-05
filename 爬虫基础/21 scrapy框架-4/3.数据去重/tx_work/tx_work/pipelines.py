@@ -26,7 +26,7 @@ class TxWorkCheckPipeline:
             hash_value = md5_hash.hexdigest()
 
             if self.redis_client.get(f'tx_work_item_filter: {hash_value}'):
-                raise DropItem('数据重复')
+                raise DropItem('数据重复')                      #raise会立即中断当前的执行流程,所以下面的retrun不会被执行
             else:
                 self.redis_client.set(f'tx_work_item_filter: {hash_value}', item_str)
 
