@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e40815d1-64f8-45d8-9940-025e5bdada07" name="更改" comment="20250104_1">
+    <list default="true" id="e40815d1-64f8-45d8-9940-025e5bdada07" name="更改" comment="Book-20250105">
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1878632f-f515-4cef-bd02-e3fd6f3f1e5b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1878632f-f515-4cef-bd02-e3fd6f3f1e5b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1966754c-f621-4d92-a283-db1dc658b5ea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1966754c-f621-4d92-a283-db1dc658b5ea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1fef7951-d279-499a-9ca7-70991a844050.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1fef7951-d279-499a-9ca7-70991a844050.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/3.数据去重/tx_work/tx_work/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/3.数据去重/tx_work/tx_work/pipelines.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,37 +70,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.11.链接数据库.executor": "Run",
-    "Python.6.使用对象关联的方式将多个学生存储到班级对象中.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.top250.executor": "Run",
-    "Python.tx_work_info.executor": "Run",
-    "Python.考试.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/ProjectCode/Python_Learn",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "database.data.views",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.11.链接数据库.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.使用对象关联的方式将多个学生存储到班级对象中.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.top250 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.top250.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tx_work_info.executor&quot;: &quot;Run&quot;,
+    &quot;Python.考试.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ProjectCode/Python_Learn&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "dynamo",
-      "mongo",
-      "mysql",
-      "redis"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;dynamo&quot;,
+      &quot;mongo&quot;,
+      &quot;mysql&quot;,
+      &quot;redis&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Python.tx_work_info">
+}</component>
+  <component name="RunManager" selected="Python.top250 (1)">
     <configuration name="console_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/consoles/db/1fef7951-d279-499a-9ca7-70991a844050/console_1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -125,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11.链接数据库" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="top250 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,12 +137,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础代码/31 MongoDB数据库" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫基础/22 scrapy-redis框架-1/2.scrapy-redis的简单使用/douban/douban/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础代码/31 MongoDB数据库/11.链接数据库.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫基础/22 scrapy-redis框架-1/2.scrapy-redis的简单使用/douban/douban/spiders/top250.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,13 +197,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.console_1.js" />
+      <item itemvalue="Python.考试" />
+      <item itemvalue="Python.top250 (1)" />
+      <item itemvalue="Python.top250" />
+      <item itemvalue="Python.tx_work_info" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.top250 (1)" />
         <item itemvalue="Python.tx_work_info" />
         <item itemvalue="Python.top250" />
         <item itemvalue="Python.考试" />
         <item itemvalue="Node.js.console_1.js" />
-        <item itemvalue="Python.11.链接数据库" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +245,10 @@
       <workItem from="1735980763532" duration="597000" />
       <workItem from="1735985951216" duration="4003000" />
       <workItem from="1735994668755" duration="8654000" />
+      <workItem from="1736159686436" duration="601000" />
+      <workItem from="1736161668886" duration="833000" />
+      <workItem from="1736168527775" duration="3501000" />
+      <workItem from="1736176300253" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="20241011">
       <option name="closed" value="true" />
@@ -276,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735986233807</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Book-20250105">
+      <option name="closed" value="true" />
+      <created>1736058963652</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736058963652</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,13 +333,15 @@
     <MESSAGE value="20241229_1" />
     <MESSAGE value="20241229_2" />
     <MESSAGE value="20250104_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="20250104_1" />
+    <MESSAGE value="Book-20250105" />
+    <option name="LAST_COMMIT_MESSAGE" value="Book-20250105" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Learn$tx_work_info.coverage" NAME="tx_work_info 覆盖结果" MODIFIED="1736006739293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/spiders" />
     <SUITE FILE_PATH="coverage/Python_Learn$test.coverage" NAME="test 覆盖结果" MODIFIED="1728647729494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/12 面向对象-2" />
     <SUITE FILE_PATH="coverage/Python_Learn$6_.coverage" NAME="6.使用对象关联的方式将多个学生存储到班级对象中 覆盖结果" MODIFIED="1728645565961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/12 面向对象-2" />
     <SUITE FILE_PATH="coverage/Python_Learn$top250.coverage" NAME="top250 覆盖结果" MODIFIED="1735994901025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/spiders" />
+    <SUITE FILE_PATH="coverage/Python_Learn$top250__1_.coverage" NAME="top250 (1) 覆盖结果" MODIFIED="1736171136774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫基础/22 scrapy-redis框架-1/2.scrapy-redis的简单使用/douban/douban/spiders" />
     <SUITE FILE_PATH="coverage/Python_Learn$.coverage" NAME="考试 覆盖结果" MODIFIED="1731846106066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/MyScript" />
     <SUITE FILE_PATH="coverage/Python_Learn$11_.coverage" NAME="11.链接数据库 覆盖结果" MODIFIED="1731747122682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础代码/31 MongoDB数据库" />
   </component>
