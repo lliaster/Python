@@ -22,5 +22,7 @@
     <schema id="15" parent="1" name="7"/>
     <schema id="16" parent="1" name="8"/>
     <schema id="17" parent="1" name="9"/>
+    <collection id="18" parent="2" name="top250:dupefilter"/>
+    <collection id="19" parent="2" name="top250:requests"/>
   </database-model>
 </dataSource>
