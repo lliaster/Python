@@ -1,0 +1,154 @@
+Index: .idea/Python_Learn.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n  <component name=\"PyDocumentationSettings\">\r\n    <option name=\"format\" value=\"PLAIN\" />\r\n    <option name=\"myDocStringFormat\" value=\"Plain\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Python_Learn.iml b/.idea/Python_Learn.iml
+--- a/.idea/Python_Learn.iml	(revision 3183a00d8c5a597e30adf4fa2a57f24bfe0850c8)
++++ b/.idea/Python_Learn.iml	(date 1736657232204)
+@@ -2,7 +2,7 @@
+ <module type="PYTHON_MODULE" version="4">
+   <component name="NewModuleRootManager">
+     <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="inheritedJdk" />
++    <orderEntry type="jdk" jdkName="Python 3.9 (feapder_base)" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+   <component name="PyDocumentationSettings">
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Black\">\r\n    <option name=\"sdkName\" value=\"Python 3.9 (base)\" />\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.9 (scrapy_base)\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 3183a00d8c5a597e30adf4fa2a57f24bfe0850c8)
++++ b/.idea/misc.xml	(date 1736657232208)
+@@ -3,5 +3,5 @@
+   <component name="Black">
+     <option name="sdkName" value="Python 3.9 (base)" />
+   </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (scrapy_base)" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (feapder_base)" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e40815d1-64f8-45d8-9940-025e5bdada07\" name=\"更改\" comment=\"20250104_1\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/pipelines.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/pipelines.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/settings.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/settings.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/middlewares.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/middlewares.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/pipelines.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/pipelines.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/3.数据去重/tx_work/tx_work/pipelines.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/3.数据去重/tx_work/tx_work/pipelines.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <excluded-from-favorite>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"REMOTE\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"origin/main\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </excluded-from-favorite>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"6054534f6160093b77b5b0cb38a2f9dfdcc3578a\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;lliaster&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/lliaster/Python.git&quot;,\r\n    &quot;accountId&quot;: &quot;e043ffb4-440b-4e76-b942-65f0839f41ed&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2n64i60ny099qUVWXXeikGVjdF1\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.11.链接数据库.executor\": \"Run\",\r\n    \"Python.6.使用对象关联的方式将多个学生存储到班级对象中.executor\": \"Run\",\r\n    \"Python.test.executor\": \"Run\",\r\n    \"Python.top250.executor\": \"Run\",\r\n    \"Python.tx_work_info.executor\": \"Run\",\r\n    \"Python.考试.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"last_opened_file_path\": \"D:/ProjectCode/Python_Learn\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"database.data.views\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"DatabaseDriversLRU\": [\r\n      \"dynamo\",\r\n      \"mongo\",\r\n      \"mysql\",\r\n      \"redis\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Python.tx_work_info\">\r\n    <configuration name=\"console_1.js\" type=\"NodeJSConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\" path-to-js-file=\"$APPLICATION_CONFIG_DIR$/consoles/db/1fef7951-d279-499a-9ca7-70991a844050/console_1.js\" working-dir=\"$PROJECT_DIR$\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"考试\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python_Learn\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/基础代码/MyScript\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/基础代码/MyScript/考试.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"11.链接数据库\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python_Learn\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/基础代码/31 MongoDB数据库\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/基础代码/31 MongoDB数据库/11.链接数据库.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"top250\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python_Learn\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/spiders\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/spiders/top250.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"tx_work_info\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python_Learn\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/spiders\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/spiders/tx_work_info.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.tx_work_info\" />\r\n        <item itemvalue=\"Python.top250\" />\r\n        <item itemvalue=\"Python.考试\" />\r\n        <item itemvalue=\"Node.js.console_1.js\" />\r\n        <item itemvalue=\"Python.11.链接数据库\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220\" />\r\n        <option value=\"bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"e40815d1-64f8-45d8-9940-025e5bdada07\" name=\"更改\" comment=\"20240929\" />\r\n      <created>1728280317704</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1728280317704</updated>\r\n      <workItem from=\"1728280320032\" duration=\"1918000\" />\r\n      <workItem from=\"1728289475507\" duration=\"1859000\" />\r\n      <workItem from=\"1728640853059\" duration=\"382000\" />\r\n      <workItem from=\"1728641256055\" duration=\"181000\" />\r\n      <workItem from=\"1728641901640\" duration=\"4925000\" />\r\n      <workItem from=\"1731682630106\" duration=\"3750000\" />\r\n      <workItem from=\"1731740450967\" duration=\"600000\" />\r\n      <workItem from=\"1731741552625\" duration=\"13757000\" />\r\n      <workItem from=\"1731827184507\" duration=\"9119000\" />\r\n      <workItem from=\"1735403537486\" duration=\"316000\" />\r\n      <workItem from=\"1735453203299\" duration=\"14000\" />\r\n      <workItem from=\"1735979889748\" duration=\"863000\" />\r\n      <workItem from=\"1735980763532\" duration=\"597000\" />\r\n      <workItem from=\"1735985951216\" duration=\"4003000\" />\r\n      <workItem from=\"1735994668755\" duration=\"8654000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"20241011\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728650206535</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728650206535</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"20241229_1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735403604940</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735403604940</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"20241229_1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735403641087</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735403641087</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"20241229_2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735403661462</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735403661462</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"20250104_1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735986233807</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735986233807</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"20240929\" />\r\n    <MESSAGE value=\"20241011\" />\r\n    <MESSAGE value=\"20241229_1\" />\r\n    <MESSAGE value=\"20241229_2\" />\r\n    <MESSAGE value=\"20250104_1\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"20250104_1\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/Python_Learn$tx_work_info.coverage\" NAME=\"tx_work_info 覆盖结果\" MODIFIED=\"1736006739293\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/spiders\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_Learn$test.coverage\" NAME=\"test 覆盖结果\" MODIFIED=\"1728647729494\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/基础代码/12 面向对象-2\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_Learn$6_.coverage\" NAME=\"6.使用对象关联的方式将多个学生存储到班级对象中 覆盖结果\" MODIFIED=\"1728645565961\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/基础代码/12 面向对象-2\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_Learn$top250.coverage\" NAME=\"top250 覆盖结果\" MODIFIED=\"1735994901025\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/spiders\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_Learn$.coverage\" NAME=\"考试 覆盖结果\" MODIFIED=\"1731846106066\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/基础代码/MyScript\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_Learn$11_.coverage\" NAME=\"11.链接数据库 覆盖结果\" MODIFIED=\"1731747122682\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/基础代码/31 MongoDB数据库\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3183a00d8c5a597e30adf4fa2a57f24bfe0850c8)
++++ b/.idea/workspace.xml	(date 1736662940066)
+@@ -4,13 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e40815d1-64f8-45d8-9940-025e5bdada07" name="更改" comment="20250104_1">
++    <list default="true" id="e40815d1-64f8-45d8-9940-025e5bdada07" name="更改" comment="20250105_1">
++      <change beforePath="$PROJECT_DIR$/.idea/Python_Learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Learn.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/pipelines.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/1.多管道的基本使用/douban/douban/settings.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/middlewares.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/pipelines.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/3.数据去重/tx_work/tx_work/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/3.数据去重/tx_work/tx_work/pipelines.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -24,6 +21,17 @@
+       </list>
+     </option>
+   </component>
++  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
++    <envs>
++      <env key="FLASK_APP" value="app" />
++    </envs>
++    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
++    <option name="myEnvs">
++      <map>
++        <entry key="FLASK_APP" value="app" />
++      </map>
++    </option>
++  </component>
+   <component name="Git.Settings">
+     <excluded-from-favorite>
+       <branch-storage>
+@@ -40,7 +48,7 @@
+     </excluded-from-favorite>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="6054534f6160093b77b5b0cb38a2f9dfdcc3578a" />
++        <entry key="$PROJECT_DIR$" value="main" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -86,7 +94,7 @@
+     "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
+     "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "database.data.views",
++    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+     "vue.rearranger.settings.migration": "true"
+   },
+   "keyToStringList": {
+@@ -196,11 +204,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python.考试" />
+         <item itemvalue="Python.tx_work_info" />
+         <item itemvalue="Python.top250" />
+-        <item itemvalue="Python.考试" />
++        <item itemvalue="Python.11.链接数据库" />
+         <item itemvalue="Node.js.console_1.js" />
+-        <item itemvalue="Python.11.链接数据库" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -235,6 +243,12 @@
+       <workItem from="1735980763532" duration="597000" />
+       <workItem from="1735985951216" duration="4003000" />
+       <workItem from="1735994668755" duration="8654000" />
++      <workItem from="1736057438262" duration="180000" />
++      <workItem from="1736058794557" duration="728000" />
++      <workItem from="1736581718545" duration="11362000" />
++      <workItem from="1736627630967" duration="97000" />
++      <workItem from="1736627749632" duration="26000" />
++      <workItem from="1736656834940" duration="3400000" />
+     </task>
+     <task id="LOCAL-00001" summary="20241011">
+       <option name="closed" value="true" />
+@@ -276,7 +290,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1735986233807</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="20250105_1">
++      <option name="closed" value="true" />
++      <created>1736057462182</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1736057462182</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -311,7 +333,8 @@
+     <MESSAGE value="20241229_1" />
+     <MESSAGE value="20241229_2" />
+     <MESSAGE value="20250104_1" />
+-    <option name="LAST_COMMIT_MESSAGE" value="20250104_1" />
++    <MESSAGE value="20250105_1" />
++    <option name="LAST_COMMIT_MESSAGE" value="20250105_1" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/Python_Learn$tx_work_info.coverage" NAME="tx_work_info 覆盖结果" MODIFIED="1736006739293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫基础/21 scrapy框架-4/2.利用多管道将数据保存到数据库与文件中/tx_work/tx_work/spiders" />
